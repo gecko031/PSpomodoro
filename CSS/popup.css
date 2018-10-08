@@ -1,0 +1,47 @@
+button{
+    outline: none;
+    margin: 1px;
+    position: center;
+    border-radius: 5px;
+    text-align: center;
+}
+body{
+    background-color: #b70f0a;
+    position: center;
+}
+#display_frame{
+    background-color: lightgrey;
+    position: center;
+    border-radius: 9px;
+    width: 50px;
+    margin: 2px 2px 2px 4px;
+}
+#display{
+    text-align: center;
+}
+#counterStart{
+    background-color: #72bb53;
+    position: center;
+    margin: 2px 2px 2px 4px;
+}
+#counterStop{
+    background-color: lightcoral;
+    position: center;
+    margin: 2px 2px 2px 4px;
+}
+#buttonBlacklist{
+    height: 20px;
+    width: 60px;
+    position: center;
+    margin: 2px 2px 2px 4px;
+}
+#buttonDeleteBlacklist{
+    height: 20px;
+    width: 80px;
+    position: center;
+    margin: 2px 2px 2px 4px;
+}
+#skip{
+    width: 15px;
+    height: 15px;
+}

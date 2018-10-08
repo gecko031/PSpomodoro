@@ -1,0 +1,80 @@
+button {
+    height: 20px;
+    width: 60px;
+    outline: none;
+    margin: 10px;
+}
+input {
+    width: 40px;
+    height: 16px;
+    margin: 1px;
+    position: center;
+}
+body{
+    position: center;
+}
+span{
+    font-size: 15px;
+    font: italic bold 12px/30px Arial, serif;
+}
+tr{
+    height: 20px;
+}
+.timeSettings{
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    position: center;
+    width: max-content;
+    background-color: #ff6666;
+    padding: 10px;
+}
+#userInfo{
+    margin: auto;
+    border-style: solid;
+    border-radius: 5px;
+    width: max-content;
+    background-color: #ff6666;
+    position: center;
+    padding: 25px;
+}
+#IdSave{
+    height: 20px;
+    width: 80px;
+    background-color: #72bb53;
+    border-radius: 5px;
+    margin: auto;
+
+}#saveSet{
+    background-color: #72bb53;
+    border-radius: 5px;
+    margin: auto;
+}#clearSet{
+    background-color: #72bb53;
+    border-radius: 5px;
+    margin: auto;
+      height: 20px;width: 70px;
+  }
+#buttonSetEdit{
+    background-color: #ff9900;
+    border-radius: 5px;
+    margin: auto;
+}
+.clockIcon{
+    width: 16px;
+    height: 16px;
+}
+.notepad{
+    width: 17px;
+    height: 17px;
+}
+#tomato_icon_content{
+    width: 20px;
+    height: 20px;
+}
+#tomato_icon{
+    width: 15px;
+    height: 15px;
+    position: center;
+    margin: 1% 50%;
+}

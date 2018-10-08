@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/options.css">
+</head>
+<body>
+<table class="timeSettings">
+    <tr>
+        <td><span>Wybierz konfigurację</span></td>
+        <td>
+            <select id="setSelect">
+                <option id="set0" value="Domyslna">Domyslna</option>
+                <option id="set1" value="Zestaw1">Zestaw 1</option>
+                <option id="set2" value="Zestaw2">Zestaw 2</option>
+                <option id="set3" value="Zestaw3">Zestaw 3</option>
+                <option id="set4" value="Niestandardowa">Niestandardowa</option>
+            </select>
+        </td>
+        <!--<td>
+            <button id="editSelect" type="submit">Edytuj</button>
+        </td>-->
+    </tr>
+    <tr>
+        <td></td>
+        <td><button id="removeSet">Usuń</button></td>
+        <td><button id="saveSet">Zapisz</button></td>
+    </tr>
+</table>
+
+<table  id="timeParameters" class="timeSettings">
+    <tr>
+        <td><span>Konfiguracja : </span></td>
+        <td><span><div id="selectedSettingsDisplay">Domyslna</div></span></td>
+    </tr>
+    <tr>
+        <td><img class="clockIcon" src="images/clock_16x.ico"></td>
+        <td><span>Czas pracy</span></td>
+        <td>
+            <label for="IdTimeWork"></label>
+            <input id="IdTimeWork" name="timeWork" type="number"><br>
+        </td>
+    </tr>
+    <tr>
+        <td><img class="clockIcon" src="images/clock_16x.ico"></td>
+        <td><span>Czas przerwy</span></td>
+        <td><label for="IdTimeBreak"></label>
+            <input id="IdTimeBreak" name="timeBreak" type="number"><br>
+        </td>
+    </tr>
+    <tr>
+        <td><img class="clockIcon" src="images/clock_16x.ico"></td>
+        <td><span>Czas dlugiej przerwy</span></td>
+        <td><label for="IdTimeBreakLong"></label>
+            <input id="IdTimeBreakLong" name="timeBreakLong" type="number"><br></td>
+    </tr>
+    <tr>
+        <td><img class="notepad" src="images/notepad.png"></td>
+        <td><span>Ilosc cykli (do 10)</span></td>
+        <td><label for="IdTimeWorkQuantity"></label>
+            <input id="IdTimeWorkQuantity" name="timeWorkQuantity" type="number"><br>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><button id="IdSave">Wprowadź</button></td>
+
+    </tr>
+</table>
+<div id="userInfo">
+    <div id="tomato_icon">
+        <img id="tomato_icon_content" src="images/tomato.png">
+    </div>
+    <br>
+    <h3>Czym jest timer PSpomodoro</h3>
+    <span>
+        Jest to timer oparty o technikę Pomodoro®, której autorem jest Francesco Cirillo. <br>
+        Pozwala ona na zwiększenie skupienia a co za tym idzie produktywności.<br>
+        </span>
+    <h3>Jak to działa?</h3>
+    <span>
+        Czas całkowity (czyli sesja) dzieli się na mniejsze odcinki czasowe (czyli cykle).<br>
+        W cyklu zawiera się kolejno czas pracy i przerwa krótka.<br>
+        Natomiast w ostatnim cyklu po czasie pracy włącza się długa przerwa, wtedy następuje koniec sesji.<br>
+        </span>
+    <h3>Porady</h3>
+    <span>
+        Ustaw sobie cel/cele, które będziesz realizował/a podczas trwania całej sesji.<br>
+        Następnie należy podzielić sobie ten czas na takie fragmenty czasowe (czas pracy, przerwa, <br>
+        długa przerwa, ilość cykli), żeby móc się jak najdłużej skupić.<br>
+        </span>
+    <h3>Zaleca się</h3>
+    <span>
+        &bull;25min czasu pracy<br>
+        &bull;5min  czasu krótkiej przerwy<br>
+        &bull;15min czasu długiej przerwy<br>
+        </span><br>
+</div>
+<script src="options.js"></script>
+</body>
+</html>

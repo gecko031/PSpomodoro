@@ -1,0 +1,17 @@
+{
+  "name": "PSpomodoro",
+  "version": "1.0",
+  "description": "Organise your timeflow",
+  "permissions": ["declarativeContent", "storage","tabs","activeTab"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/tomato.png"
+  },
+  "manifest_version": 2
+}
+
