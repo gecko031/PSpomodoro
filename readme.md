@@ -1,3 +1,3 @@
 PSpomodoro
 
-Chrome browser extension that helps you manage your time, to be worth spending.
+Chrome browser extension that helps manage your time.
