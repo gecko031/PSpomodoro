@@ -8,11 +8,15 @@ counterStart.onclick = function () {
     chrome.runtime.sendMessage({
         action: 'start_session'
     });
-
 };
 counterStop.onclick = function () {
     chrome.runtime.sendMessage({
         action: 'stop_session'
+    })
+};
+counterSkip.onclick = function () {
+    chrome.runtime.sendMessage({
+        action: 'skip_session'	
     })
 };
 buttonBlacklist.onclick = function () {
@@ -23,10 +27,5 @@ buttonBlacklist.onclick = function () {
 buttonDeleteBlacklist.onclick = function () {
     chrome.runtime.sendMessage({
         action: 'delete_from_blacklist'
-    })
-};
-counterSkip.onclick = function () {
-    chrome.runtime.sendMessage({
-        action: 'skip_session'
     })
 };
